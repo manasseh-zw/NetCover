@@ -29,7 +29,7 @@ The NetCover project is a web application designed to visualize the distribution
 
 `Select Network Provider`
 
-![Network Provider Selection](./images/network-provider-selection.png)
+![Network Provider Selection](./.docs/demo.mp4)
 
 #### Map Visualization
 
