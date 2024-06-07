@@ -29,7 +29,7 @@ The NetCover project is a web application designed to visualize the distribution
 
 `How it works`
 
-![Demo Video](./docs/demo.mp4)
+(https://raw.githubusercontent.com/manasseh-zw/NetCover/master/docs/demo.mp4)
 
 #### Select Network
 
