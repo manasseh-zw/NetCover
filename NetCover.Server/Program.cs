@@ -6,7 +6,7 @@ using Scrutor;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<RepositoryContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresLocal")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresCloud")));
 builder.Services.AddScoped<ICellTowerService, CellTowerService>();
 
 builder.Services.AddEndpointsApiExplorer();

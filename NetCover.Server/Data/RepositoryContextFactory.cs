@@ -15,7 +15,7 @@ public class RepositoryContextFactory : IDesignTimeDbContextFactory<RepositoryCo
 
         var builder = new DbContextOptionsBuilder<RepositoryContext>();
 
-        builder.UseNpgsql(configuration.GetConnectionString("PostgresLocal"));
+        builder.UseNpgsql(configuration.GetConnectionString("PostgresCloud"));
 
         return new RepositoryContext(builder.Options);
     }
