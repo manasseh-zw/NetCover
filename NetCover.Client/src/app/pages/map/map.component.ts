@@ -39,10 +39,12 @@ export class MapComponent implements OnInit, AfterViewInit {
     this.addMarkers();
     this.centerMap();
 
+    this.loading = false;
+
 
   }
 
-  loading: boolean = false;
+  loading: boolean = true;
 
   mapService: MapService = inject(MapService);
 
