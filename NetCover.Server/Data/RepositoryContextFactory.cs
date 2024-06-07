@@ -15,7 +15,11 @@ public class RepositoryContextFactory : IDesignTimeDbContextFactory<RepositoryCo
 
         var builder = new DbContextOptionsBuilder<RepositoryContext>();
 
-        builder.UseNpgsql(configuration.GetConnectionString("PostgresCloud"));
+        builder.UseNpgsql(options =>
+        {
+            configuration.GetConnectionString("PostgresCloud");
+            options.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery);
+        });
 
         return new RepositoryContext(builder.Options);
     }
