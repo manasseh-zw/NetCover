@@ -25,27 +25,23 @@ The NetCover project is a web application designed to visualize the distribution
 
 ### Screenshots and Video Demo
 
-#### Network Provider Selection
+#### Demo Video
 
-`Select Network Provider`
+`How it works`
 
-![Network Provider Selection](./.docs/demo.mp4)
+![Demo Video](./docs/demo.mp4)
 
-#### Map Visualization
+#### Select Network
 
-`Map with Cell Towers`
+`choose an option`
 
-![Map Visualization](./images/map-visualization.png)
+![Dropdown](./docs/img1.png)
 
-#### Loading Indicator
+#### Interact with Map
 
-`Loading Indicator`
+`map`
 
-![Loading Indicator](./images/loading-indicator.png)
-
-### Video Demo
-
-Watch the video demo [here](./videos/network-coverage-demo.mp4).
+![Interactive map](./docs/img2.png)
 
 ## Folder Structure
 
