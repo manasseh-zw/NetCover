@@ -29,19 +29,20 @@ The NetCover project is a web application designed to visualize the distribution
 
 `How it works`
 
-(https://raw.githubusercontent.com/manasseh-zw/NetCover/master/docs/demo.mp4)
+
 
 #### Select Network
 
 `choose an option`
 
-![Dropdown](./docs/img1.png)
+![img1](https://github.com/manasseh-zw/NetCover/assets/112127696/b4d476f6-0a4d-4681-b9ab-b8b9c9e44e7f)
 
 #### Interact with Map
 
 `map`
 
-![Interactive map](./docs/img2.png)
+![img2](https://github.com/manasseh-zw/NetCover/assets/112127696/dcd06c3e-d682-4488-8bfe-96b62d6e4830)
+
 
 ## Folder Structure
 
