@@ -27,9 +27,9 @@ The NetCover project is a web application designed to visualize the distribution
 
 #### Demo Video
 
-`How it works`
+`Click this link:`
 
-
+https://www.canva.com/design/DAGHgP8njfM/Oh97ane90XrF5F9wtVkyxQ/watch?utm_content=DAGHgP8njfM&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
 
 #### Select Network
 
@@ -42,6 +42,10 @@ The NetCover project is a web application designed to visualize the distribution
 `map`
 
 ![img2](https://github.com/manasseh-zw/NetCover/assets/112127696/dcd06c3e-d682-4488-8bfe-96b62d6e4830)
+
+#### Multiple Views
+
+![Galaxy-Fold2-localhost (1)](https://github.com/manasseh-zw/NetCover/assets/112127696/85105571-9c86-4900-b6e5-b8f07820c6b7)
 
 
 ## Folder Structure
