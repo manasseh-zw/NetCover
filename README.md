@@ -10,13 +10,12 @@ The NetCover project is a web application designed to visualize the distribution
 - **Network Filtering**: Filter cell towers by network provider (Econet, Netone, Telecel, Fixed).
 - **Clustered Markers**: Efficiently handle large numbers of markers with clustering.
 - **Custom Markers**: Use Font Awesome icons for markers with color coding based on the network provider.
-- **Loading Indicator**: Display a loading spinner while the map is updating.
 
 ### Tech Stack
 
 - **Backend**: ASP.NET Core Web API
   - **Database**: PostgreSQL (using Entity Framework Core for ORM)
-  - **Hosting**: Local setup (not hosted due to Azure free plan limitations)
+  - **Hosting**: Local setup (not hosted due database querying limitations)
 - **Frontend**: Angular
   - **Map Library**: Leaflet with `leaflet.markercluster` plugin
   - **UI Components**: PrimeNG
@@ -62,7 +61,6 @@ https://www.canva.com/design/DAGHgP8njfM/Oh97ane90XrF5F9wtVkyxQ/watch?utm_conten
     - Models/
     - Repository/
   - Program.cs
-  - Startup.cs
   - appsettings.json
 - frontend/
   - src/
@@ -78,6 +76,35 @@ https://www.canva.com/design/DAGHgP8njfM/Oh97ane90XrF5F9wtVkyxQ/watch?utm_conten
       - styles/
         - custom.css
     - index.html
-- README.md
-- .gitignore
-- package.json
+
+### Setup Instructions
+
+```bash
+
+##Backend
+# Clone the repository
+git clone https://github.com/manasseh-zw/NetCover.git
+
+# Navigate to the project directory
+cd netcover.server
+
+# Run the application
+dotnet run
+```
+
+```bash
+
+##Frontend
+# Clone the repository
+
+# Navigate to the project directory
+cd netcover.client
+
+# Restore npm packages 
+npm i
+
+# Run
+ng serve
+```
+
+
