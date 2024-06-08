@@ -76,10 +76,11 @@ https://www.canva.com/design/DAGHgP8njfM/Oh97ane90XrF5F9wtVkyxQ/watch?utm_conten
       - styles/
         - custom.css
     - index.html
+```
 
 ### Setup Instructions
 
-```bash
+```
 
 ##Backend
 # Clone the repository
@@ -92,7 +93,7 @@ cd netcover.server
 dotnet run
 ```
 
-```bash
+```
 
 ##Frontend
 # Clone the repository
