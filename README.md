@@ -47,6 +47,16 @@ https://www.canva.com/design/DAGHgP8njfM/Oh97ane90XrF5F9wtVkyxQ/watch?utm_conten
 ![Galaxy-Fold2-localhost (1)](https://github.com/manasseh-zw/NetCover/assets/112127696/85105571-9c86-4900-b6e5-b8f07820c6b7)
 
 
+## Technical Details
+
+### Filtering Cell Towers by Network Provider
+
+The filtering of cell towers is done based on the Mobile Network Code (MNC) which uniquely identifies each network provider. When a network provider is selected from the dropdown, the frontend sends a request to the backend to fetch cell towers associated with the selected MNC. 
+
+**Backend Filtering Logic**:
+The `GetCellTowersByProvider` method in the `CellTowerService` filters the cell towers using the MNC:
+
+
 ## Folder Structure
 
 ```bash
